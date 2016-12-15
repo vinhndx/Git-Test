@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+}
+
+#main{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#head{
+	height:150px;
+	border:1px solid red;
+	margin-bottom:5px;	
+}
+
+#left{
+	width: 200px;
+	line-height:50px;
+	min-height:500px;
+	float:left;
+	border:1px solid red;
+	margin-bottom:5px;	
+	font-size:18px;	
+}
+
+#content{
+	width:796px;
+	min-height:500px;
+	float:left;
+	border:1px solid red;	
+	margin-left:0px;
+}
+
+#imgContent{
+	padding:10px;
+}
+
+td{
+	padding-left:10px;
+}
+
+input[type=text]{
+	width:60%;	
+}
+
+input[type=submit], [type=reset]{
+	font-size:20px;
+}
+
+textarea{
+	overflow-y:scroll;	
+	resize:none;
+}
